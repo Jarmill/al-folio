@@ -68,6 +68,25 @@
   pages={},
   doi={}}
   
+% @misc{miller2020decomposed_arxiv,
+%       title={{Decomposed Structured Subsets for Semidefinite and Sum-of-Squares Optimization}}, 
+%       author={Jared Miller and Yang Zheng and Mario Sznaier and Antonis Papachristodoulou},
+%       year={2020},
+%       eprint={1911.12859},
+%       archivePrefix={arXiv},
+%       primaryClass={math.OC}
+% }
+
+@article{miller2021decomposed,
+      title={{Decomposed Structured Subsets for Semidefinite and Sum-of-Squares Optimization}}, 
+      author={Jared Miller and Yang Zheng and Mario Sznaier and Antonis Papachristodoulou},
+      year={2021},
+      journal={Automatica}
+}
+
+%   eprint={1911.12859},
+    %   archivePrefix={arXiv},
+    %   primaryClass={math.OC}
 @misc{miller2021distance,
       title={{Bounding the Distance to Unsafe Sets with Convex Optimization}}, 
       author={Jared Miller and Mario Sznaier},
