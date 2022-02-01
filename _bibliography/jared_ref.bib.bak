@@ -1,3 +1,7 @@
+---
+---
+
+@string{CDC = {Conference on Decision and Control,}}
 
 @inproceedings{wu2019ism,
  author = {Wu, Chieh and Miller, Jared and Chang, Yale and Sznaier, Mario and Dy, Jennifer},
