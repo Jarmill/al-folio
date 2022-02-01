@@ -31,7 +31,7 @@ abbr={NEURIPS},
  url = {https://proceedings.neurips.cc/paper/2019/file/61f3a6dbc9120ea78ef75544826c814e-Paper.pdf},
  volume = {32},
  bibtex_show={true},
- pdf={ism_neurips.pdf},
+ paper={ism_neurips.pdf},
  poster={ism_neurips_poster.pdf},
  year = {2019}
 }
