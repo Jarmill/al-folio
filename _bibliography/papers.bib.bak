@@ -1,0 +1,37 @@
+---
+---
+References
+==========
+
+
+
+@article{miller2020ribosome,
+  abbr={LCSS},
+  bibtex_show={true},
+  author={Miller, Jared and Al-Radhawi, Muhammad Ali and Sontag, Eduardo Daniel},
+  journal={IEEE Control Systems Letters}, 
+  title={{Mediating Ribosomal Competition by Splitting Pools}}, 
+  year={2021},
+  volume={5},
+  number={5},
+  pages={1555-1560},
+  doi={10.1109/LCSYS.2020.3041213},
+  url={https://ieeexplore.ieee.org/abstract/document/9273048},  
+  preprint={https://arxiv.org/abs/2009.00539}
+}
+
+@inproceedings{wu2019ism,
+abbr={NEURIPS},
+ author = {Wu, Chieh and Miller, Jared and Chang, Yale and Sznaier, Mario and Dy, Jennifer},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+ pages = {7915--7925},
+ publisher = {Curran Associates\, Inc.},
+ title = {{Solving Interpretable Kernel Dimensionality Reduction}},
+ url = {https://proceedings.neurips.cc/paper/2019/file/61f3a6dbc9120ea78ef75544826c814e-Paper.pdf},
+ volume = {32},
+ bibtex_show={true},
+ paper={ism_neurips.pdf},
+ poster={ism_neurips_poster.pdf},
+ year = {2019}
+}
