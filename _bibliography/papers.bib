@@ -1,5 +1,5 @@
 @INPROCEEDINGS{taskazan2019domain,
-  author={Taskazan, Beg\"{u}m and  Miller, Jared and Inyang-Udoh, Uduak and O. Camps, Octavia and Sznaier, Mario},
+  author={Taskazan, Beg\"{u}m and  Miller, Jared and Inyang-Udoh, Uduak and Camps, Octavia and Sznaier, Mario},
   booktitle={2019 IEEE Conference on Control Technology and Applications (CCTA)}, 
   title={{Domain Adaptation Based Fault Detection in Label Imbalanced Cyberphysical Systems}}, 
   year={2019},
@@ -138,55 +138,6 @@
 	  bibtex_show={true},
 	  slides={distance_presentation.pdf},
 	  arxiv={2110.14047}
-}
-
-@article{miller2021decomposed,
-title = {Decomposed structured subsets for semidefinite and sum-of-squares optimization},
-journal = {Automatica},
-volume = {137},
-pages = {110-125},
-year = {2022},
-issn = {0005-1098},
-doi = {https://doi.org/10.1016/j.automatica.2021.110125},
-url = {https://www.sciencedirect.com/science/article/pii/S0005109821006543},
-html = {https://www.sciencedirect.com/science/article/pii/S0005109821006543},
-author = {Miller, Jared and Zheng, Yang and Sznaier, Mario and Papachristodoulou, Antonis},
-keywords = {Semidefinite programming, Chordal decomposition, Sum of squares, Approximation},
-abstract = {Semidefinite programs (SDPs) are standard convex problems that are frequently found in control and optimization applications. Interior-point methods can solve SDPs in polynomial time up to arbitrary accuracy, but scale poorly as the size of matrix variables and the number of constraints increases. To improve scalability, SDPs can be approximated with lower and upper bounds through the use of structured subsets (e.g., diagonally-dominant and scaled-diagonally dominant matrices). Meanwhile, any underlying sparsity or symmetry structure may be leveraged to form an equivalent SDP with smaller positive semidefinite constraints. In this paper, we present a notion of decomposed structured subsets to approximate an SDP with structured subsets after an equivalent conversion. The lower/upper bounds found by approximation after conversion become tighter than the bounds obtained by approximating the original SDP directly. We apply decomposed structured subsets to semidefinite and sum-of-squares optimization problems with examples of H∞ norm estimation and constrained polynomial optimization. An existing basis pursuit method is adapted into this framework to iteratively refine bounds.},
-abbr={AUT},
-selected={true},
-arxiv={1911.12859},
-poster={IPAM_decomposed_poster.pdf},
-pdf={decomposed_arxiv.pdf},
-code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset}
-}
-
-@misc{miller2021facial,
-      title={Facial Input Decompositions for Robust Peak and Reachable Set Estimation under Polyhedral Uncertainty}, 
-      author={Miller, Jared and Sznaier, Mario},
-      year={2021},
-      eprint={2112.14838},
-      archivePrefix={arXiv},
-      primaryClass={math.OC},
-      arxiv={2112.14838},
-	  slides={SIAM_data_driven.pdf},
-	  code={https://github.com/Jarmill/data_driven_occ}
-}
-
-@INPROCEEDINGS{miller2020decomposed,
-  author={Miller, Jared and Zheng, Yang and Sznaier, Mario  and Papachristodoulou, Antonis},
-  booktitle={2020 21st IFAC World Congress}, 
-  title={{Decomposed Structured Subsets for Semidefinite Optimization}}, 
-  year={2020},
-  bibtex_show={true},
-  volume={},
-  number={},
-  abbr={IFAC},
-  url={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
-  html={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
-  abstract={Semidefinite programs (SDPs) are important computational tools in controls, optimization, and operations research. Standard interior-point methods scale poorly for solving large-scale SDPs. With certain compromise of solution quality, one method for scalability is to use the notion of structured subsets (e.g. diagonally-dominant (DD) and scaled-diagonally dominant (SDD) matrices), to derive inner/outer approximations for SDPs. For sparse SDPs, chordal decomposition techniques have been widely used to derive equivalent SDP reformations with smaller PSD constraints. In this paper, we investigate a notion of decomposed structured subsets by combining chordal decomposition with DD/SDD approximations. This notion takes advantage of any underlying sparsity via chordal decomposition, while embracing the scalability of DD/SDD approximations. We discuss the applications of decomposed structured subsets to semidefinite optimization. Basis pursuit for refining DD/SDD approximations are also incorporated into the decomposed structured subset framework, and numerical performance is improved as compared to standard DD/SDD approximations. These results are demonstrated on H-infinity norm estimation problems for networked systems.},
-  slides={IFAC_decomposed.pdf},
-  poster={IPAM_decomposed_poster.pdf}
 }
 
 @inproceedings{wu2019ism,

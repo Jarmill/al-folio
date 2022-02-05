@@ -5,11 +5,33 @@
 "Camps":
   - firstname: ["O", "O.", "Octavia"]
     url: http://robustsystems.coe.neu.edu/
-    
+   
+"Korda":
+  - firstname: ["M", "M.", "Milan"]
+    url: https://homepages.laas.fr/mkorda/
+   
+"Henrion":
+  - firstname: ["D", "D.", "Didier"]
+    url: https://homepages.laas.fr/henrion/
+   
 "Wu":
   - firstname: ["C", "C.", "Chieh"]
     url: http://chiehwu.com/
+    
+"Sontag":
+  - firstname: ["E", "E.", "Eduardo", "Eduardo Daniel"]
+    url: http://www.sontaglab.org/index.html
 
+"Zheng":
+  - firstname: ["Y", "Y.", "Yang"]
+    url: https://zhengy09.github.io/
+
+"Dy":
+  - firstname: ["Jennifer"]
+    url: https://coe.northeastern.edu/people/dy-jennifer/
+    
+
+    
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
