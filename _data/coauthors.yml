@@ -5,6 +5,10 @@
 "Camps":
   - firstname: ["O", "O.", "Octavia"]
     url: http://robustsystems.coe.neu.edu/
+    
+"Wu":
+  - firstname: ["C", "C.", "Chieh"]
+    url: http://chiehwu.com/
 
 "Adams":
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
