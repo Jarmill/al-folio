@@ -33,6 +33,27 @@
   slides={ACC_Ribosome_3.pptx}
 }
 
+@article{miller2021decomposed,
+title = {Decomposed structured subsets for semidefinite and sum-of-squares optimization},
+journal = {Automatica},
+volume = {137},
+pages = {110-125},
+year = {2022},
+issn = {0005-1098},
+doi = {https://doi.org/10.1016/j.automatica.2021.110125},
+url = {https://www.sciencedirect.com/science/article/pii/S0005109821006543},
+html = {https://www.sciencedirect.com/science/article/pii/S0005109821006543},
+author = {Miller, Jared and Zheng, Yang and Sznaier, Mario and Papachristodoulou, Antonis},
+keywords = {Semidefinite programming, Chordal decomposition, Sum of squares, Approximation},
+abstract = {Semidefinite programs (SDPs) are standard convex problems that are frequently found in control and optimization applications. Interior-point methods can solve SDPs in polynomial time up to arbitrary accuracy, but scale poorly as the size of matrix variables and the number of constraints increases. To improve scalability, SDPs can be approximated with lower and upper bounds through the use of structured subsets (e.g., diagonally-dominant and scaled-diagonally dominant matrices). Meanwhile, any underlying sparsity or symmetry structure may be leveraged to form an equivalent SDP with smaller positive semidefinite constraints. In this paper, we present a notion of decomposed structured subsets to approximate an SDP with structured subsets after an equivalent conversion. The lower/upper bounds found by approximation after conversion become tighter than the bounds obtained by approximating the original SDP directly. We apply decomposed structured subsets to semidefinite and sum-of-squares optimization problems with examples of H∞ norm estimation and constrained polynomial optimization. An existing basis pursuit method is adapted into this framework to iteratively refine bounds.},
+abbr={AUT},
+selected={true},
+arxiv={1911.12859},
+poster={IPAM_decomposed_poster.pdf},
+pdf={decomposed_arxiv.pdf},
+code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset}
+}
+
 @INPROCEEDINGS{miller2019acv,
   author={Miller, Jared and Shafai, Bahram},
   booktitle={2019 IEEE Conference on Control Technology and Applications (CCTA)}, 
@@ -148,7 +169,7 @@
  publisher = {Curran Associates Inc.},
  title = {{Solving Interpretable Kernel Dimensionality Reduction}},
  url = {https://proceedings.neurips.cc/paper/2019/file/61f3a6dbc9120ea78ef75544826c814e-Paper.pdf},
- html={https://proceedings.neurips.cc/paper/2019/file/61f3a6dbc9120ea78ef75544826c814e-Paper.pdf},
+html={https://proceedings.neurips.cc/paper/2019/file/61f3a6dbc9120ea78ef75544826c814e-Paper.pdf},
  slides={ISM presentation.pdf},
  bibtex_show={true},
  abbr={NeurIPS},
@@ -160,4 +181,32 @@ poster={ISM_NIPS2019.pdf},
  year = {2019}
 }
 
+@misc{miller2021facial,
+      title={Facial Input Decompositions for Robust Peak and Reachable Set Estimation under Polyhedral Uncertainty}, 
+      author={Miller, Jared and Sznaier, Mario},
+      year={2021},
+      eprint={2112.14838},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      arxiv={2112.14838},
+	  slides={SIAM_data_driven.pdf},
+	  code={https://github.com/Jarmill/data_driven_occ},
+	  abstract={This work bounds extreme values of state functions and approximates reachable sets for a class of input-affine continuous-time systems that are affected by polyhedral-bounded uncertainty. Instances of these systems may arise in data-driven peak estimation, in which the state function must be bounded for all systems that are that are consistent with a set of state-derivative data records corrupted under L-infinity bounded noise. Existing occupation measure-based methods form a convergent sequence of outer approximations to the true peak value or reachable set volume, given an initial set, by solving a hierarchy of semidefinite programs in increasing size. These techniques scale combinatorially in the number of state variables and uncertain parameters. We present tractable algorithms for peak and reachable set estimation that scale linearly in the number of faces of the uncertainty-bounding polytope rather than combinatorially in the number of uncertain parameters by leveraging convex duality and a theorem of alternatives (facial decomposition). The sequence of decomposed semidefinite programs will converge to the true optimal value under mild assumptions (convergence and smoothness of dynamics).}
+}
 
+
+@INPROCEEDINGS{miller2020decomposed,
+  author={Miller, Jared and Zheng, Yang and Sznaier, Mario  and Papachristodoulou, Antonis},
+  booktitle={2020 21st IFAC World Congress}, 
+  title={{Decomposed Structured Subsets for Semidefinite Optimization}}, 
+  year={2020},
+  bibtex_show={true},
+  volume={},
+  number={},
+  abbr={IFAC},
+  url={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
+  html={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
+  abstract={Semidefinite programs (SDPs) are important computational tools in controls, optimization, and operations research. Standard interior-point methods scale poorly for solving large-scale SDPs. With certain compromise of solution quality, one method for scalability is to use the notion of structured subsets (e.g. diagonally-dominant (DD) and scaled-diagonally dominant (SDD) matrices), to derive inner/outer approximations for SDPs. For sparse SDPs, chordal decomposition techniques have been widely used to derive equivalent SDP reformations with smaller PSD constraints. In this paper, we investigate a notion of decomposed structured subsets by combining chordal decomposition with DD/SDD approximations. This notion takes advantage of any underlying sparsity via chordal decomposition, while embracing the scalability of DD/SDD approximations. We discuss the applications of decomposed structured subsets to semidefinite optimization. Basis pursuit for refining DD/SDD approximations are also incorporated into the decomposed structured subset framework, and numerical performance is improved as compared to standard DD/SDD approximations. These results are demonstrated on H∞ norm estimation problems for networked systems.},
+  slides={IFAC_decomposed.pdf},
+  poster={IPAM_decomposed_poster.pdf}
+}
