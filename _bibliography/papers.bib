@@ -29,7 +29,8 @@
   pdf={mediating_ribosomes.pdf},
   code={https://gitlab.com/jarmill/Ribosomes},
   bibtex_show={true},
-  abstract={Synthetic biology constructs often rely upon the introduction of “circuit” genes into host cells, in order to express novel proteins and thus endow the host with a desired behavior. The expression of these new genes “consumes” existing resources in the cell, such as ATP, RNA polymerase, amino acids, and ribosomes. Ribosomal competition among strands of mRNA may be described by a system of nonlinear ODEs called the Ribosomal Flow Model (RFM). The competition for resources between host and circuit genes can be ameliorated by splitting the ribosome pool by use of orthogonal ribosomes, where the circuit genes are exclusively translated by mutated ribosomes. In this work, the RFM system is extended to include orthogonal ribosome competition. This Orthogonal Ribosomal Flow Model (ORFM) is proven to be stable through the use of Robust Lyapunov Functions. The optimization problem of maximizing the weighted protein translation rate by adjusting allocation of ribosomal species is formulated.}
+  abstract={Synthetic biology constructs often rely upon the introduction of “circuit” genes into host cells, in order to express novel proteins and thus endow the host with a desired behavior. The expression of these new genes “consumes” existing resources in the cell, such as ATP, RNA polymerase, amino acids, and ribosomes. Ribosomal competition among strands of mRNA may be described by a system of nonlinear ODEs called the Ribosomal Flow Model (RFM). The competition for resources between host and circuit genes can be ameliorated by splitting the ribosome pool by use of orthogonal ribosomes, where the circuit genes are exclusively translated by mutated ribosomes. In this work, the RFM system is extended to include orthogonal ribosome competition. This Orthogonal Ribosomal Flow Model (ORFM) is proven to be stable through the use of Robust Lyapunov Functions. The optimization problem of maximizing the weighted protein translation rate by adjusting allocation of ribosomal species is formulated.},
+  slides={ACC_Ribosome_3.pptx}
   
 }
 
@@ -46,6 +47,7 @@
   html={https://ieeexplore.ieee.org/document/8920508},
   abstract={This paper presents a simple model of the heave (up-and-down) dynamics of an air cushioned vehicle. A set of nonlinear differential equations are extended to the case of a bagged air skates using a Forchheimer porosity approximation. The model exhibits stability under atmospheric pressure, and a tendency towards instability in near-vacuum conditions. Inner estimates of regions of attractions are found to verify stability in atmosphere, and track simulation shows system disturbance rejection under a drifting subtrack height and gaps.},
   bibtex_show={true},
+  slides={CCTA_ACV_Levitation.pdf},
   abbr={CCTA}
   }
 
@@ -64,6 +66,7 @@
   pdf = {peak_recovery_arxiv.pdf},
   code={https://github.com/jarmill/peak/},
   bibtex_show={true},
+  slides={CDC_peak_recovery.pdf},
   abstract={Peak Estimation aims to find the maximum value of a state function achieved by a dynamical system. This problem has been previously cast as a convex infinite-dimensional linear program on occupation measures, which can be approximately solved by a converging hierarchy of moment relaxations. In this letter, we present an algorithm to approximate optimal trajectories if the solutions to these relaxations satisfy rank constraints. We also extend peak estimation to maximin and safety analysis problems, providing a certificate that trajectories are bounded away from an unsafe set.}
   }
 
@@ -103,7 +106,7 @@
   }
 
 @INPROCEEDINGS{miller2021uncertain,
-  author={Jared Miller and Didier Henrion and Mario Sznaier and Milan Korda},
+  author={Miller, Jared and Henrion, Didier and Sznaier, Mario and Korda, Milan},
   booktitle={2021 60th IEEE Conference on Decision and Control (CDC)}, 
   title={{ Peak Estimation for Uncertain and Switched Systems}}, 
   year={2021},
@@ -111,6 +114,7 @@
   number={},
   pages={},
   doi={},
+  slides={CDC_uncertain.pdf},
   abbr={CDC},
   url={https://arxiv.org/abs/2103.13017},
   abstract={Peak estimation bounds extreme values of a function of state along trajectories of a dynamical system. This paper focuses on extending peak estimation to continuous and discrete settings with time-independent and time-dependent uncertainty. Techniques from optimal control are used to incorporate uncertainty into an existing occupation measure-based peak estimation framework, which includes special consideration for handling switching uncertainties. The resulting infinite-dimensional linear programs can be solved approximately with Linear Matrix Inequalities arising from the moment-SOS hierarchy.},
@@ -146,6 +150,7 @@ year = {2022},
 issn = {0005-1098},
 doi = {https://doi.org/10.1016/j.automatica.2021.110125},
 url = {https://www.sciencedirect.com/science/article/pii/S0005109821006543},
+html = {https://www.sciencedirect.com/science/article/pii/S0005109821006543},
 author = {Miller, Jared and Zheng, Yang and Sznaier, Mario and Papachristodoulou, Antonis},
 keywords = {Semidefinite programming, Chordal decomposition, Sum of squares, Approximation},
 abstract = {Semidefinite programs (SDPs) are standard convex problems that are frequently found in control and optimization applications. Interior-point methods can solve SDPs in polynomial time up to arbitrary accuracy, but scale poorly as the size of matrix variables and the number of constraints increases. To improve scalability, SDPs can be approximated with lower and upper bounds through the use of structured subsets (e.g., diagonally-dominant and scaled-diagonally dominant matrices). Meanwhile, any underlying sparsity or symmetry structure may be leveraged to form an equivalent SDP with smaller positive semidefinite constraints. In this paper, we present a notion of decomposed structured subsets to approximate an SDP with structured subsets after an equivalent conversion. The lower/upper bounds found by approximation after conversion become tighter than the bounds obtained by approximating the original SDP directly. We apply decomposed structured subsets to semidefinite and sum-of-squares optimization problems with examples of H∞ norm estimation and constrained polynomial optimization. An existing basis pursuit method is adapted into this framework to iteratively refine bounds.},
@@ -165,6 +170,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
       archivePrefix={arXiv},
       primaryClass={math.OC},
       arxiv={2112.14838},
+	  slides={SIAM_data_driven.pdf},
 	  code={https://github.com/Jarmill/data_driven_occ}
 }
 
@@ -189,14 +195,14 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
  booktitle = {Advances in Neural Information Processing Systems},
  editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
  pages = {7915--7925},
- publisher = {Curran Associates, Inc.},
+ publisher = {Curran Associates Inc.},
  title = {{Solving Interpretable Kernel Dimensionality Reduction}},
  url = {https://proceedings.neurips.cc/paper/2019/file/61f3a6dbc9120ea78ef75544826c814e-Paper.pdf},
  html={https://proceedings.neurips.cc/paper/2019/file/61f3a6dbc9120ea78ef75544826c814e-Paper.pdf},
  slides={ISM presentation.pdf},
  bibtex_show={true},
  abbr={NeurIPS},
- abstract={Kernel dimensionality reduction (KDR) algorithms find a low dimensional representation of the original data by optimizing kernel dependency measures that are capable of capturing nonlinear relationships. The standard strategy is to first map the data into a high dimensional feature space using kernels prior to a projection onto a low dimensional space. While KDR methods can be easily solved by keeping the most dominant eigenvectors of the kernel matrix, its features are no longer easy to interpret. Alternatively, Interpretable KDR (IKDR) is different in that it projects onto a subspace before the kernel feature mapping, therefore, the projection matrix can indicate how the original features linearly combine to form the new features. Unfortunately, the IKDR objective requires a non-convex manifold optimization that is difficult to solve and can no longer be solved by eigendecomposition. Recently, an efficient iterative spectral (eigendecomposition) method (ISM) has been proposed for this objective in the context of alternative clustering. However, ISM only provides theoretical guarantees for the Gaussian kernel. This greatly constrains ISM’s usage since any kernel method using ISM is now limited to a single kernel. This work extends the theoretical guarantees of ISM to an entire family of kernels, thereby empowering ISM to solve any kernel method of the same objective. In identifying this family, we prove that each kernel within the family has a surrogate Φ matrix and the optimal projection is formed by its most dominant eigenvectors. With this extension, we establish how a wide range of IKDR applications across different learning paradigms can be solved by ISM. To support reproducible results, the source code is made publicly available on https://github.com/endsley/Interpretable_Kernel_Dim_Reduction.
+ abstract={Kernel dimensionality reduction (KDR) algorithms find a low dimensional representation of the original data by optimizing kernel dependency measures that are capable of capturing nonlinear relationships. The standard strategy is to first map the data into a high dimensional feature space using kernels prior to a projection onto a low dimensional space. While KDR methods can be easily solved by keeping the most dominant eigenvectors of the kernel matrix, its features are no longer easy to interpret. Alternatively, Interpretable KDR (IKDR) is different in that it projects onto a subspace before the kernel feature mapping, therefore, the projection matrix can indicate how the original features linearly combine to form the new features. Unfortunately, the IKDR objective requires a non-convex manifold optimization that is difficult to solve and can no longer be solved by eigendecomposition. Recently, an efficient iterative spectral (eigendecomposition) method (ISM) has been proposed for this objective in the context of alternative clustering. However, ISM only provides theoretical guarantees for the Gaussian kernel. This greatly constrains ISM’s usage since any kernel method using ISM is now limited to a single kernel. This work extends the theoretical guarantees of ISM to an entire family of kernels, thereby empowering ISM to solve any kernel method of the same objective. In identifying this family, we prove that each kernel within the family has a surrogate Φ matrix and the optimal projection is formed by its most dominant eigenvectors. With this extension, we establish how a wide range of IKDR applications across different learning paradigms can be solved by ISM. To support reproducible results, the source code is made publicly available on [code].
 },
 code={https://github.com/endsley/Interpretable_Kernel_Dim_Reduction},
 pdf={ism_arxiv.pdf},
