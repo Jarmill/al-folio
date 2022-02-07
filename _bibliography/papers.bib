@@ -1,18 +1,4 @@
-@INPROCEEDINGS{taskazan2019domain,
-  author={Taskazan, Beg\"{u}m and  Miller, Jared and Inyang-Udoh, Uduak and Camps, Octavia and Sznaier, Mario},
-  booktitle={2019 IEEE Conference on Control Technology and Applications (CCTA)}, 
-  title={{Domain Adaptation Based Fault Detection in Label Imbalanced Cyberphysical Systems}}, 
-  year={2019},
-  volume={},
-  number={},
-  pages={142-147},
-  doi={10.1109/CCTA.2019.8920608},
-  abstract={In this paper we propose a data-driven fault detection framework for semi-supervised scenarios where labeled training data from the system under consideration (the “target”) is imbalanced (e.g. only relatively few labels are available from one of the classes), but data from a related system (the “source”) is readily available. An example of this situation is when a generic simulator is available, but needs to be tuned on a case-by-case basis to match the parameters of the actual system. The goal of this paper is to work with the statistical distribution of the data without necessitating system identification. Our main result shows that if the source and target domain are related by a linear transformation (a common assumption in domain adaptation), the problem of designing a classifier that minimizes a miss-classification loss over the joint source and target domains reduces to a convex optimization subject to a single (non-convex) equality constraint. This second-order equality constraint can be recast as a rank-1 optimization problem, where the rank constraint can be efficiently handled through a reweighted nuclear norm surrogate. These results are illustrated with a practical application: fault detection in additive manufacturing (industrial 3D printing). The proposed method is able to exploit simulation data (source domain) to substantially outperform classifiers tuned using only data from a single domain.},
-  abbr={CCTA},
-  bibtex_show={true},
-  url={https://ieeexplore.ieee.org/abstract/document/8920608},
-  html={https://ieeexplore.ieee.org/abstract/document/8920608}
-  }
+
 
 @ARTICLE{miller2020ribosome,
   author={Miller, Jared and Al-Radhawi, Muhammad Ali and Sontag, Eduardo Daniel},
@@ -54,22 +40,7 @@ pdf={decomposed_arxiv.pdf},
 code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset}
 }
 
-@INPROCEEDINGS{miller2019acv,
-  author={Miller, Jared and Shafai, Bahram},
-  booktitle={2019 IEEE Conference on Control Technology and Applications (CCTA)}, 
-  title={{A Model of Heave Dynamics for Bagged Air Cushioned Vehicles}}, 
-  year={2019},
-  volume={},
-  number={},
-  pages={976-981},
-  doi={10.1109/CCTA.2019.8920508},
-  url={https://ieeexplore.ieee.org/document/8920508},
-  html={https://ieeexplore.ieee.org/document/8920508},
-  abstract={This paper presents a simple model of the heave (up-and-down) dynamics of an air cushioned vehicle. A set of nonlinear differential equations are extended to the case of a bagged air skates using a Forchheimer porosity approximation. The model exhibits stability under atmospheric pressure, and a tendency towards instability in near-vacuum conditions. Inner estimates of regions of attractions are found to verify stability in atmosphere, and track simulation shows system disturbance rejection under a drifting subtrack height and gaps.},
-  bibtex_show={true},
-  slides={CCTA_ACV_Levitation.pdf},
-  abbr={CCTA}
-  }
+
 
 @ARTICLE{miller2020recovery,
   author={Miller, Jared and Henrion, Didier and Sznaier, Mario},
@@ -92,7 +63,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
 
 @INPROCEEDINGS{miller2019rank,
   author={Miller, Jared and  Zheng, Yang and Roig-Solvas, Biel and Sznaier, Mario and Papachristodoulou, Antonis},
-  booktitle={2019 IEEE 58th Conference on Decision and Control (CDC)}, 
+  booktitle={IEEE 58th Conference on Decision and Control (CDC)}, 
   title={{Chordal Decomposition in Rank Minimized Semidefinite Programs with Applications to Subspace Clustering}}, 
   year={2019},
   volume={},
@@ -109,7 +80,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
 
 @INPROCEEDINGS{miller2020mimo,
   author={Miller, Jared and Singh, Rajiv and Sznaier, Mario},
-  booktitle={2020 59th IEEE Conference on Decision and Control (CDC)}, 
+  booktitle={59th IEEE Conference on Decision and Control (CDC)}, 
   title={{MIMO System Identification by Randomized Active-Set Methods}}, 
   year={2020},
   volume={},
@@ -127,7 +98,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
 
 @INPROCEEDINGS{miller2021uncertain,
   author={Miller, Jared and Henrion, Didier and Sznaier, Mario and Korda, Milan},
-  booktitle={2021 60th IEEE Conference on Decision and Control (CDC)}, 
+  booktitle={60th IEEE Conference on Decision and Control (CDC)}, 
   title={{ Peak Estimation for Uncertain and Switched Systems}}, 
   year={2021},
   volume={},
@@ -144,7 +115,7 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
   bibtex_show={true}
   }
   
-@misc{miller2021distance,
+@preprint{miller2021distance,
       title={{Bounding the Distance to Unsafe Sets with Convex Optimization}}, 
       author={Miller, Jared and Sznaier, Mario},
       year={2021},
@@ -161,6 +132,40 @@ code={https://github.com/soc-ucsd/SDPfw/tree/master/decomposed_structured_subset
 	  arxiv={2110.14047}
 }
 
+
+
+@preprint{miller2021facial,
+      title={Facial Input Decompositions for Robust Peak and Reachable Set Estimation under Polyhedral Uncertainty}, 
+      author={Miller, Jared and Sznaier, Mario},
+      year={2021},
+      eprint={2112.14838},
+      archivePrefix={arXiv},
+      primaryClass={math.OC},
+      arxiv={2112.14838},
+	  slides={SIAM_data_driven.pdf},
+	  code={https://github.com/Jarmill/data_driven_occ},
+	  abstract={This work bounds extreme values of state functions and approximates reachable sets for a class of input-affine continuous-time systems that are affected by polyhedral-bounded uncertainty. Instances of these systems may arise in data-driven peak estimation, in which the state function must be bounded for all systems that are that are consistent with a set of state-derivative data records corrupted under L-infinity bounded noise. Existing occupation measure-based methods form a convergent sequence of outer approximations to the true peak value or reachable set volume, given an initial set, by solving a hierarchy of semidefinite programs in increasing size. These techniques scale combinatorially in the number of state variables and uncertain parameters. We present tractable algorithms for peak and reachable set estimation that scale linearly in the number of faces of the uncertainty-bounding polytope rather than combinatorially in the number of uncertain parameters by leveraging convex duality and a theorem of alternatives (facial decomposition). The sequence of decomposed semidefinite programs will converge to the true optimal value under mild assumptions (convergence and smoothness of dynamics).}	 
+}
+
+
+@INPROCEEDINGS{miller2020decomposed,
+  author={Miller, Jared and Zheng, Yang and Sznaier, Mario  and Papachristodoulou, Antonis},
+  booktitle={21st IFAC World Congress}, 
+  title={{Decomposed Structured Subsets for Semidefinite Optimization}}, 
+  year={2020},
+  bibtex_show={true},
+  volume={},
+  number={},
+  abbr={IFAC},
+  url={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
+  html={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
+  abstract={Semidefinite programs (SDPs) are important computational tools in controls, optimization, and operations research. Standard interior-point methods scale poorly for solving large-scale SDPs. With certain compromise of solution quality, one method for scalability is to use the notion of structured subsets (e.g. diagonally-dominant (DD) and scaled-diagonally dominant (SDD) matrices), to derive inner/outer approximations for SDPs. For sparse SDPs, chordal decomposition techniques have been widely used to derive equivalent SDP reformations with smaller PSD constraints. In this paper, we investigate a notion of decomposed structured subsets by combining chordal decomposition with DD/SDD approximations. This notion takes advantage of any underlying sparsity via chordal decomposition, while embracing the scalability of DD/SDD approximations. We discuss the applications of decomposed structured subsets to semidefinite optimization. Basis pursuit for refining DD/SDD approximations are also incorporated into the decomposed structured subset framework, and numerical performance is improved as compared to standard DD/SDD approximations. These results are demonstrated on H∞ norm estimation problems for networked systems.},
+  slides={IFAC_decomposed.pdf},
+  poster={IPAM_decomposed_poster.pdf}
+}
+
+
+YEAR 2019
 @inproceedings{wu2019ism,
  author = {Wu, Chieh and Miller, Jared and Chang, Yale and Sznaier, Mario and Dy, Jennifer},
  booktitle = {Advances in Neural Information Processing Systems},
@@ -181,32 +186,35 @@ poster={ISM_NIPS2019.pdf},
  year = {2019}
 }
 
-@misc{miller2021facial,
-      title={Facial Input Decompositions for Robust Peak and Reachable Set Estimation under Polyhedral Uncertainty}, 
-      author={Miller, Jared and Sznaier, Mario},
-      year={2021},
-      eprint={2112.14838},
-      archivePrefix={arXiv},
-      primaryClass={math.OC},
-      arxiv={2112.14838},
-	  slides={SIAM_data_driven.pdf},
-	  code={https://github.com/Jarmill/data_driven_occ},
-	  abstract={This work bounds extreme values of state functions and approximates reachable sets for a class of input-affine continuous-time systems that are affected by polyhedral-bounded uncertainty. Instances of these systems may arise in data-driven peak estimation, in which the state function must be bounded for all systems that are that are consistent with a set of state-derivative data records corrupted under L-infinity bounded noise. Existing occupation measure-based methods form a convergent sequence of outer approximations to the true peak value or reachable set volume, given an initial set, by solving a hierarchy of semidefinite programs in increasing size. These techniques scale combinatorially in the number of state variables and uncertain parameters. We present tractable algorithms for peak and reachable set estimation that scale linearly in the number of faces of the uncertainty-bounding polytope rather than combinatorially in the number of uncertain parameters by leveraging convex duality and a theorem of alternatives (facial decomposition). The sequence of decomposed semidefinite programs will converge to the true optimal value under mild assumptions (convergence and smoothness of dynamics).}
-}
-
-
-@INPROCEEDINGS{miller2020decomposed,
-  author={Miller, Jared and Zheng, Yang and Sznaier, Mario  and Papachristodoulou, Antonis},
-  booktitle={2020 21st IFAC World Congress}, 
-  title={{Decomposed Structured Subsets for Semidefinite Optimization}}, 
-  year={2020},
-  bibtex_show={true},
+@INPROCEEDINGS{miller2019acv,
+  author={Miller, Jared and Shafai, Bahram},
+  booktitle={IEEE Conference on Control Technology and Applications (CCTA)}, 
+  title={{A Model of Heave Dynamics for Bagged Air Cushioned Vehicles}}, 
+  year={2019},
   volume={},
   number={},
-  abbr={IFAC},
-  url={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
-  html={https://www.sciencedirect.com/science/article/pii/S2405896320316645},
-  abstract={Semidefinite programs (SDPs) are important computational tools in controls, optimization, and operations research. Standard interior-point methods scale poorly for solving large-scale SDPs. With certain compromise of solution quality, one method for scalability is to use the notion of structured subsets (e.g. diagonally-dominant (DD) and scaled-diagonally dominant (SDD) matrices), to derive inner/outer approximations for SDPs. For sparse SDPs, chordal decomposition techniques have been widely used to derive equivalent SDP reformations with smaller PSD constraints. In this paper, we investigate a notion of decomposed structured subsets by combining chordal decomposition with DD/SDD approximations. This notion takes advantage of any underlying sparsity via chordal decomposition, while embracing the scalability of DD/SDD approximations. We discuss the applications of decomposed structured subsets to semidefinite optimization. Basis pursuit for refining DD/SDD approximations are also incorporated into the decomposed structured subset framework, and numerical performance is improved as compared to standard DD/SDD approximations. These results are demonstrated on H∞ norm estimation problems for networked systems.},
-  slides={IFAC_decomposed.pdf},
-  poster={IPAM_decomposed_poster.pdf}
-}
+  pages={976-981},
+  doi={10.1109/CCTA.2019.8920508},
+  url={https://ieeexplore.ieee.org/document/8920508},
+  html={https://ieeexplore.ieee.org/document/8920508},
+  abstract={This paper presents a simple model of the heave (up-and-down) dynamics of an air cushioned vehicle. A set of nonlinear differential equations are extended to the case of a bagged air skates using a Forchheimer porosity approximation. The model exhibits stability under atmospheric pressure, and a tendency towards instability in near-vacuum conditions. Inner estimates of regions of attractions are found to verify stability in atmosphere, and track simulation shows system disturbance rejection under a drifting subtrack height and gaps.},
+  bibtex_show={true},
+  slides={CCTA_ACV_Levitation.pdf},
+  abbr={CCTA}
+  }
+
+@INPROCEEDINGS{taskazan2019domain,
+  author={Taskazan, Beg\"{u}m and  Miller, Jared and Inyang-Udoh, Uduak and Camps, Octavia and Sznaier, Mario},
+  booktitle={IEEE Conference on Control Technology and Applications (CCTA)}, 
+  title={{Domain Adaptation Based Fault Detection in Label Imbalanced Cyberphysical Systems}}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={142-147},
+  doi={10.1109/CCTA.2019.8920608},
+  abstract={In this paper we propose a data-driven fault detection framework for semi-supervised scenarios where labeled training data from the system under consideration (the “target”) is imbalanced (e.g. only relatively few labels are available from one of the classes), but data from a related system (the “source”) is readily available. An example of this situation is when a generic simulator is available, but needs to be tuned on a case-by-case basis to match the parameters of the actual system. The goal of this paper is to work with the statistical distribution of the data without necessitating system identification. Our main result shows that if the source and target domain are related by a linear transformation (a common assumption in domain adaptation), the problem of designing a classifier that minimizes a miss-classification loss over the joint source and target domains reduces to a convex optimization subject to a single (non-convex) equality constraint. This second-order equality constraint can be recast as a rank-1 optimization problem, where the rank constraint can be efficiently handled through a reweighted nuclear norm surrogate. These results are illustrated with a practical application: fault detection in additive manufacturing (industrial 3D printing). The proposed method is able to exploit simulation data (source domain) to substantially outperform classifiers tuned using only data from a single domain.},
+  abbr={CCTA},
+  bibtex_show={true},
+  url={https://ieeexplore.ieee.org/abstract/document/8920608},
+  html={https://ieeexplore.ieee.org/abstract/document/8920608}
+  }
