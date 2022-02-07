@@ -14,5 +14,8 @@ nav: false
 <!-- {{ entry.pdf | prepend: '/assets/pdf/' | relative_url }} -->
 <p><br /></p>
 
+Put an iframe here with a link to my CV.
+</article>
+
 <!--Replace with a link to my own cv<iframe src="https://drive.google.com/file/d/1adiSFK4NkFyDmMPDF3REhVIkQP5Wt_Gy/preview" style="width:100%; height:800px; border:0;" scrolling="no"></iframe>-->
 
