@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: ACV Modeling
+description: Describe and control the up-and-down (heave) motion of a bagged air cushioned vehicle.
 img:
 importance: 3
-category: fun
+category: completed
 ---
 
 Every project has a beautiful feature showcase page.

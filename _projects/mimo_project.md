@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Sparsity
-description: Leverage sparse structure in order to render large-scale semidefinite programs tractable
-img: assets/img/3.jpg
-importance: 2
-category: current
+title: MIMO Identification
+description: System identification of multi-input multi-output (MIMO) linear system through the use of active set methods
+img:
+importance: 3
+category: completed
 ---
 
 Every project has a beautiful feature showcase page.

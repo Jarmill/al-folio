@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Peak Estimation
+description: Bound extreme values of state functions using occupation measure techniques
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: current
 ---
 
 Every project has a beautiful feature showcase page.

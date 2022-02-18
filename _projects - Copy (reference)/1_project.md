@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Sparsity
-description: Leverage sparse structure in order to render large-scale semidefinite programs tractable
-img: assets/img/3.jpg
-importance: 2
-category: current
+title: project 1
+description: a project with a background image
+img: assets/img/12.jpg
+importance: 1
+category: work
 ---
 
 Every project has a beautiful feature showcase page.
