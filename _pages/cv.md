@@ -7,9 +7,9 @@ nav: true
 ---
   <article>
     <ul>
-  <li><a href="/home/assets/pdf/CV_Jared_Miller.pdf">Download CV </a></li>
-  <li><a href="/home/assets/pdf/Resume_Jared_Miller.pdf.pdf">Download Resume </a></li>
-  <li><a href="/home/assets/pdf/Publications_by_Jared_Miller.pdf">Download Publications</a></li>
+  <li><a href="/assets/pdf/CV_Jared_Miller.pdf">Download CV </a></li>
+  <li><a href="/assets/pdf/Resume_Jared_Miller.pdf">Download Resume </a></li>
+  <li><a href="/assets/pdf/Publications_by_Jared_Miller.pdf">Download Publications</a></li>
 </ul>
 <!-- {{ entry.pdf | prepend: '/assets/pdf/' | relative_url }} -->
 <p><br /></p>
